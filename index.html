@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furkan Khan - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="images/my-avatar.png" alt="Furkan Khan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Furkan Khan">Furkan Khan</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:khanfurkan575@gmail.com" class="contact-link">khanfurkan575@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91-9871601543" class="contact-link">+91-9871601543</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-01-16">January 16, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>New Delhi, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/khanfurkan9001/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/furkankhan16/" class="social-link">
+              <ion-icon name="logo-LinkedIn"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/FurkanKhann" class="social-link">
+              <ion-icon name="logo-GitHub"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.youtube.com/@LearnWithEngineerr" class="social-link">
+              <ion-icon name="logo-YouTube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>YouTube</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+             I’m Furkan Khan, an AI enthusiast, skilled C++ programmer, and Python developer based in New Delhi, India. I’m passionate about solving real-world problems using technology and have a strong interest in building intelligent systems that make a difference. Whether it’s designing intuitive web experiences or developing deep learning models, I strive to combine functionality with creativity.
+          </p>
+
+          <p>
+            I enjoy turning complex challenges into elegant, user-friendly solutions. My work spans from crafting clean, responsive websites to building AI-driven applications. I believe technology should not only work well — it should look and feel great too.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/data.png" alt="Programming icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+
+                <p class="service-item-text">
+                  Proficient in C, C++ and Python.Solved more then 1000+ DSA problems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Part time web developer also can work on HTML, CSS and JS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/application.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Apps</h4>
+
+                <p class="service-item-text">
+                  Development of web applications using Python.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="images/chip.png" alt="AI" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI</h4>
+
+                <p class="service-item-text">
+                  Possess strong expertise in prompt engineering and the development of machine learning models.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="images/avatar-1.png" alt="Al Atif Gauri" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Al Atif Gauri</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had the opportunity to work with Furkan during our university major project. He demonstrated exceptional skills in both planning and execution, ensuring that every aspect of the project was carried out efficiently and effectively.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="images/avatar-2.png" alt="Sadqua Nawab" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sadqua Nawab</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I was part of Furkan’s team during the Smart India Hackathon and several other projects. He consistently demonstrated strong collaboration and teamwork skills, contributing significantly to our success.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="images/avatar-3.png" alt="Zainab Ahmad" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Zainab Ahmad</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I’ve collaborated with Furkan on multiple machine learning projects. One quality I admire most is his ability to simplify complex concepts, making it easier for the entire team to understand and move forward efficiently.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="images/avatar-4.png" alt="Gyashu Rehman" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gyashu Rehman</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    During our internship at DRDO, we worked together on a steganography application. Furkan’s debugging skills and logical thinking were truly admirable and played a key role in solving complex challenges.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Al Atif Gauri</h4>
+
+             
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+
+          
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jamia Millia Islamia</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                B. Tech Electronics and Communication Engineering
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sri Guru Nanak Public School</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                Secondary Schooling
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jyoti Model School</h4>
+
+              <span>2016 — 2017</span>
+
+              <p class="timeline-text">
+                High Schooling
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Summer Intern , DRDO</h4>
+
+              <span>2024 — 2024</span>
+
+              <p class="timeline-text">
+                Worked on web based steganography application.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern, IBM Skill Build</h4>
+
+              <span>2024 — 2024</span>
+
+              <p class="timeline-text">
+                Learned working of different Ai models and worked on RAG based application.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern, YBI Foundation</h4>
+
+              <span>2023 — 2023</span>
+
+              <p class="timeline-text">
+                Worked as Business analytics and conducted data analysis, preprocessing, and predictive modelling.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="YouTube" data-page="YouTube">
+
+        <header>
+          <h2 class="h2 article-title">YouTube</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0MSpyux0Leg?si=mURO3H7v9VJzfJ9h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">My NVIDIA interview experience.</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/iByke7MQW28?si=uJMb5PR2XXyE0lfl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">LeetCode solution for problem 1222.</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AR-R2n3AoSU?si=PyWjaLXF9N_Zpzje" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">Recursion solution for problem 326.</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/b7Obv23iuDc?si=AkKAkqfVA7rl5caV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">My Accenture interview experience.</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2vQQpK5Qm_A?si=0ItEoIXsB7Orwv0r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">LeetCode solution for problem 448.</h3>
+                </div>
+
+              </a>
+            </li>
+
+             <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EYh7Q-GFmkw?si=02cAU16d3EV46cXK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">LeetCode solution for problem 1578.</h3>
+                </div>
+
+              </a>
+            </li>
+           </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.9784548616362!2d77.16943627496006!3d28.72018988009559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d018d34e07ac1%3A0x811b27e151aff221!2sLohia%20Rd%2C%20Adarsh%20Nagar%2C%20Delhi%2C%20110033!5e0!3m2!1sen!2sin!4v1750779613626!5m2!1sen!2sin" width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+  <h3 class="h3 form-title">Contact Form</h3>
+
+  <form action="https://formspree.io/f/mqabgkqv" method="POST" class="form" data-form>
+
+    <div class="input-wrapper">
+      <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+      <input type="email" name="email" class="form-input" placeholder="Email address" required>
+    </div>
+
+    <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+    <button class="form-btn" type="submit">
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+
+  </form>
+</section>
+
+
+      </article>
+
+
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+          
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+    
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+          
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
